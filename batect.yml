@@ -1,0 +1,6 @@
+project_name: batect-test
+
+include:
+  - type: git
+    repo: git@github.com:ZhuYeXero/batect-bundle.git
+    ref: 207ece46aebe74fdd57e6d4b58fb09e22eac0e94

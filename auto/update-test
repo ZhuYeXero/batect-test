@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+set -xeuo pipefail
+
+while true; do
+  ./batect updateBatectBundle
+done

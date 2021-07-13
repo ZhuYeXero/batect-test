@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+set -xeuo pipefail
+
+rm -rf test
+
+for i in `seq 1 1000000`; do
+  mkdir -p test/$i 
+  echo $i > test/$i/$i.md
+done
+
+rm -rf test
